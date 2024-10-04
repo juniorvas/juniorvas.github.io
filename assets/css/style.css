@@ -457,7 +457,7 @@ main {
   margin-bottom: 2px;
 }
 
-.overhead{
+.overhead {
   color: #aeb0b8;
 }
 
@@ -1275,7 +1275,7 @@ main {
   border: 1px solid var(--jet);
   border-radius: 14px;
   outline: none;
-  
+
 }
 
 .form-input::placeholder {
@@ -2095,7 +2095,7 @@ textarea.form-input::-webkit-resizer {
     text-align: center;
   }
 
-  .info-content .status{
+  .info-content .status {
     font-size: .875rem;
     display: inline-flex;
     align-items: center;
@@ -2149,5 +2149,38 @@ textarea.form-input::-webkit-resizer {
     max-width: 700px;
   }
 
+  .timeline-text {
+    max-width: 700px;
+  }
+
+  .white-text {
+    color: white;
+  }
+
+  .skills-list {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .skills-item {
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: var(--shadow-2);
+    z-index: 1;
+  }
+
+  .skill-progress-bg {
+    height: 10px;
+  }
+
+  .skill-progress-fill {
+    height: 100%;
+  }
+
+  .skills-item h5 {
+    color: rgb(53, 182, 36);
+  }
 
 }
